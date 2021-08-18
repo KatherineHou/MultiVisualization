@@ -1,0 +1,33 @@
+﻿  Compiling CUDA source file MultiVis_Compute.cu...
+  
+  D:\00MultiVis\00MultiVis>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DNDEBUG -D_CONSOLE -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc140.pdb /FS /Zi  /MD " -o x64\Release\MultiVis_Compute.cu.obj "D:\00MultiVis\00MultiVis\MultiVis_Compute.cu" 
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\tchar.h(643): warning : expression has no effect
+D:/00MultiVis/00MultiVis/MultiVis_Compute.cu(157): warning : variable "depth" was declared but never referenced
+D:/00MultiVis/00MultiVis/MultiVis_Compute.cu(164): warning : variable "block_size_t" was declared but never referenced
+D:/00MultiVis/00MultiVis/MultiVis_Compute.cu(209): warning : variable "depth" was declared but never referenced
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\tchar.h(643): warning : expression has no effect
+  MultiVis_Compute.cu
+d:\00multivis\00multivis\type_define.h(45): warning C4244: "???": ?"int"???"float",??????
+D:/00MultiVis/00MultiVis/MultiVis_Compute.cu(25): warning C4244: "??": ?"float"???"int",??????
+  visualization.cpp
+d:\00multivis\00multivis\GLframe.h(102): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+d:\00multivis\00multivis\GLframe.h(104): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+d:\00multivis\00multivis\GLframe.h(109): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+d:\00multivis\00multivis\GLframe.h(110): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+d:\00multivis\00multivis\GLframe.h(113): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+d:\00multivis\00multivis\GLframe.h(115): warning C4244: “=”: 从“GLdouble”转换到“float”，可能丢失数据
+d:\00multivis\00multivis\GLframe.h(99): warning C4101: “yFmin”: 未引用的局部变量
+d:\00multivis\00multivis\GLframe.h(99): warning C4101: “yFmax”: 未引用的局部变量
+d:\00multivis\00multivis\GLframe.h(99): warning C4101: “xFmax”: 未引用的局部变量
+d:\00multivis\00multivis\GLframe.h(99): warning C4101: “xFmin”: 未引用的局部变量
+d:\00multivis\00multivis\type_define.h(45): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+d:\00multivis\00multivis\MultiVis_Viewer.h(123): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+d:\00multivis\00multivis\MultiVis_Viewer.h(123): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+D:\00MultiVis\glui-2.35\src\include\GL\glui.h(868): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+  正在生成代码
+  23 of 95 functions (24.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  00MultiVis.vcxproj -> D:\00MultiVis\x64\Release\00MultiVis.exe
+  00MultiVis.vcxproj -> D:\00MultiVis\x64\Release\00MultiVis.pdb (Full PDB)
